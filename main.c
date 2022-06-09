@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-// Dupla: Gabriel Dias e Nicolas Henriques
-
-
 typedef struct {
     int d;
     int x;
