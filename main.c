@@ -53,7 +53,6 @@ void HasInverseModN(int a, int n) {
     ExtendedEuclidNumbers numbers = ExtendedEuclid(a, n);
     int d = numbers.d;
     int x = numbers.x;
-    int y = numbers.y;
 
     if (d == 1) {
         if (x < 0) {
@@ -71,7 +70,6 @@ void ModularLinearEquationSolver(int a, int b, int n) {
     ExtendedEuclidNumbers numbers = ExtendedEuclid(a, n);
     int d = numbers.d;
     int x = numbers.x;
-    int y = numbers.y;
 
     if (b % d == 0) {
         printf("----Há %d soluções para %dx === %d (mod %d)----\n", d, a, b, n);
