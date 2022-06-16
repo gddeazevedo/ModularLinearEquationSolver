@@ -87,6 +87,6 @@ void ModularLinearEquationSolver(int a, int b, int n) {
 
         printf("\n");
     } else {
-        printf("----Não há soluções para %dx === %d (mod %d)----\n", d, a, b, n);
+        printf("----Não há soluções para %dx === %d (mod %d)----\n", a, b, n);
     }
 }
